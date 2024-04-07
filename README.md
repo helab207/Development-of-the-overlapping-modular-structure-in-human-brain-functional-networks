@@ -24,10 +24,10 @@ The diffusion images were preprocessed using MRtrix 3.0 (https://www.mrtrix.org/
 We first constructed a traditional functional network comprising nodal regions and interregional connectivities (i.e., edges) using the GRETNA package (http://www.nitrc.org/projects/gretna) (8). Then, we constructed the corresponding weighted edge graph representing the similarity between edges using Edge_graph_construction.m. Finally, we identified the module affiliations of edges using the Louvain algorithm (https://sites.google.com/site/findcommunities/) (9).
 3. Modular overlap entropy 
 Modular overlap entropy was calculated using the method developed by Faskowitz and colleagues, as described in their study (10). The implementation of this method can be found at https://github.com/brain-networks.
-fcn_node_entropy.m
+- fcn_node_entropy.m
 4. Mixed effect model
 To explore the developmental changes in the overlapping modular architecture, the age effects were estimated by using a mixed effect model (11, 12).
-Mixed_model.m
+- Mixed_model.m
 5. Support vector regression (SVR) analysis 
 The SVR model was implemented using the LIBSVM toolbox in MATLAB with the default parameters (https://www.csie.ntu.edu.tw/~cjlin/libsvm/) (13).
 
