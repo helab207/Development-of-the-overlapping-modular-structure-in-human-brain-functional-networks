@@ -20,12 +20,12 @@ Note: Both data are presented in a matrix of N_scans × N_node elements. For eac
 4.	Overlapping functional modules in group-level functional networks in children and adults
    - Fig 2.xls
 
-Note: This file contains the spatial distribution of each functional module in the group-level functional networks of the adult cohort, the spatial similarity of each module between each child subgroup and the adult cohort, and the system-dependent distribution of each functional module in different child subgroups and the adult cohort.
+Note: This file contains the spatial distribution of each functional module and the involved module number of brain nodes in the group-level functional networks of the adult cohort, the spatial similarity of each module between each child subgroup and the adult cohort, and the system-dependent distribution of each functional module in different child subgroups and the adult cohort.
 
 5.	Global and nodal properties of the overlapping functional modules for each scan in children
   - Fig 3.xls
 
-Note: For each scan, the adjusted global and nodal properties are provided, corrected for the influence of sex and head motion. Global properties include module number and modularity in the edge graph. Nodal properties include nodal entropy for seven brain nodes that showed significant age-related changes. Age effects on nodal nodal entropy are reported as t-values.
+Note: For each scan, the adjusted global and nodal properties are provided, corrected for the influence of sex and head motion. Global properties include module number and modularity in the edge graph. Nodal properties include nodal entropy for seven brain nodes that showed significant age-related changes. Age effects on nodal nodal entropy are reported as t-values. Spatial maps of functional module overlap (i.e. nodal entropy) for each child subgroup and for the adult group are also provided.
 
 6.	System-level nodal entropy for each scan in children
   - Fig 4.xls
@@ -45,7 +45,7 @@ Note: To avoid the possibility of data leakage by including longitudinal scans f
 9.	Prediction of individual spatial patterns of nodal module overlap from structural brain features
   - Fig 7.xls
 
-Note: For each scan, the prediction accuracy is provided along with the contribution weights of six structural features. In addition, the empirically observed and predicted entropy values are provided for a representative child with the highest prediction accuracy.
+Note: For each scan, the prediction accuracy is provided along with the contribution weights of six structural features. In addition, the empirically observed and predicted entropy values and spatial distributions of six anatomical features are provided for a representative child with the highest prediction accuracy.
 
 
 ### Codes
